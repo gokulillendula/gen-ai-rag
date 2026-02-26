@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Reset Password",
+    "content": "Users can reset their password from the Settings > Security section of their account dashboard. To change your password, navigate to Security Settings and click on the 'Change Password' option. You will be required to enter your current password and then provide a new password. After confirming the new password, click Save to update it.\n\nIf you have forgotten your password, you can use the 'Forgot Password' link on the login page. Enter your registered email address and you will receive a password reset link. The link will expire after a limited time for security reasons. Make sure to choose a strong password that includes letters, numbers, and special characters."
+  },
+  {
+    "title": "Account Deletion",
+    "content": "Users who wish to permanently delete their account can do so from Profile > Account Settings. Under the account management section, there is an option labeled 'Delete Account'. Clicking this option will prompt a confirmation message explaining that the action is irreversible.\n\nOnce the account is deleted, all associated data including personal information, saved preferences, and activity history will be permanently removed from the system. Deleted accounts cannot be recovered. If you are unsure, you may contact support before proceeding."
+  },
+  {
+    "title": "Profile Update",
+    "content": "Users can update their personal information by navigating to Profile > Edit Profile. From this page, you can modify your name, email address, phone number, and profile picture. After making changes, click the Save button to apply updates.\n\nIf you change your email address, a verification email will be sent to the new address. You must verify your email before the changes take effect. Keeping your profile information up to date ensures better communication and account security."
+  },
+  {
+    "title": "Two Factor Authentication",
+    "content": "Two Factor Authentication (2FA) adds an additional layer of security to your account. When enabled, you will be required to enter a one-time verification code along with your password during login. This code is usually sent to your registered mobile number or generated via an authenticator app.\n\nYou can enable or disable 2FA from Settings > Security > Two Factor Authentication. It is strongly recommended to enable this feature to protect your account from unauthorized access, especially if you use public or shared devices."
+  },
+  {
+    "title": "Payment Methods",
+    "content": "Users can manage their payment methods from the Billing > Payment Methods section. You can add new credit cards, debit cards, or UPI accounts for making payments. To add a payment method, click 'Add Payment Method' and enter the required details.\n\nExisting payment methods can be updated or removed at any time. For security reasons, sensitive payment details are encrypted and stored securely. Make sure your billing information is accurate to avoid transaction failures."
+  },
+  {
+    "title": "Subscription Plans",
+    "content": "The platform offers multiple subscription plans including Basic, Standard, and Premium tiers. Each plan provides different features and usage limits. Users can upgrade or downgrade their subscription from the Billing > Subscription section.\n\nWhen upgrading a plan, the new features become available immediately and the billing is adjusted accordingly. If you downgrade, changes may take effect at the end of the current billing cycle. You can view plan details and pricing before making changes."
+  },
+  {
+    "title": "Refund Policy",
+    "content": "Refund requests must be submitted within 7 days of the transaction date. To request a refund, go to Billing > Transactions and select the transaction for which you want a refund. Click on 'Request Refund' and provide a reason for your request.\n\nRefunds are processed after review by the support team. If approved, the refund will be credited to the original payment method within 5 to 7 business days. Certain promotional or discounted purchases may not be eligible for refunds."
+  },
+  {
+    "title": "Technical Support",
+    "content": "If you encounter technical issues while using the platform, you can contact the support team through the Help Center. Navigate to Help > Contact Support and submit a support ticket with a detailed description of your issue.\n\nInclude screenshots or error messages if possible, as this helps the support team diagnose the problem more quickly. You can track the status of your support request from the Help Center dashboard. Most issues are resolved within 24 to 48 hours."
+  }
+]
