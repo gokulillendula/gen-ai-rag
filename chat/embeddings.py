@@ -8,15 +8,14 @@ base_dir = Path(__file__).resolve().parent.parent
 env_path = base_dir / '.env'
 load_dotenv(dotenv_path=env_path)
 
-api_key = os.getenv("GEMINI_API_KEY")
-
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # This will now show the first 5 chars of your NEW key if found
-print(f"DEBUG: Using key starting with: {api_key[:] if api_key else 'None'}")
+print(f"DEBUG: Using key starting with: {GEMINI_API_KEY[:5] if GEMINI_API_KEY else 'None'}")
 
-if not api_key:
+if not GEMINI_API_KEY:
     raise ValueError(f"Could not find GEMINI_API_KEY. Checked path: {env_path}")
 
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=GEMINI_API_KEY)
 def get_embedding(text):
 
     response = client.models.embed_content(
